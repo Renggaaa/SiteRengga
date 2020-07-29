@@ -1,0 +1,16 @@
+{
+  "name": "rangga",
+  "version": "1.0.0",
+  "description": "Rengga Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rengga Putra Pratama",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.4.4",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1"
+  }
+}
