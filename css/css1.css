@@ -1,48 +1,48 @@
     body {
-        background-color:snow;
+        background-color: khaki;
     }
-    /*button clear*/
-    
+
+    body nav p {
+        font-family: 'Viga', sans-serif;
+    }
+
+    body div.text-center {
+        margin-top: 40px;
+        font-family: 'Amatic SC', cursive;
+    }
+
+    /*Button Clear*/
+
     a:link {
         text-decoration: none;
         color: black;
     }
-    
+
     a:visited {
         text-decoration: none;
         color: black;
         border: 0px;
     }
-    
+
     a:hover {
         text-decoration: none;
         color: black;
     }
-    
+
     a:focus {
         outline: none;
     }
-    /*akhir button clear*/
-    
-    .nav-text-style {
-        font-family: 'Viga', sans-serif;
-    }
-    
-    .title-cntn-atas {
-        margin-top: 40px;
-        font-family: 'Amatic SC', cursive;
-    }
-    
-    .title-cntn-bawah {
-        font-family: 'Cinzel', serif;
-    }
-    
+
+    /*Akhir Button Clear*/
+
     .btn-cntr {
-        margin-top: 80px;
+        margin-top: 65px;
         color: black;
+
     }
-    /*btn-nav*/
-    
+
+    /*Animasi Button*/
+
     .btn-nav {
         width: 125px;
         height: 45px;
@@ -58,26 +58,26 @@
         z-index: 0;
         transition: 1s;
     }
-    
+
     .btn-nav::before,
     .btn-nav::after {
         position: absolute;
-        background-color: white;
+        background-color: khaki;
         z-index: -1;
         transition: 1s;
         content: '';
     }
-    
+
     .btn-nav::before {
         height: 45px;
         width: 110px;
     }
-    
+
     .btn-nav::after {
         width: 125px;
         height: 30px;
     }
-    
+
     .noselect {
         -webkit-touch-callout: none;
         -webkit-user-select: none;
@@ -86,18 +86,17 @@
         -ms-user-select: none;
         user-select: none;
     }
-    
+
     .btn-nav:hover::before {
         width: 0px;
         background: #fff;
     }
-    
+
     .btn-nav:hover::after {
         height: 0px;
         background: #fff;
     }
-    
+
     .btn-nav:hover {
         background: #fff;
     }
-

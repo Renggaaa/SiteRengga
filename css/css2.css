@@ -23,5 +23,34 @@ body nav {
 
 .name-style {
     font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
 
 }
+
+/*Button Clear*/
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+    border: 0px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:focus {
+    outline: none;
+}
+
+/*Akhir Button Clear*/
