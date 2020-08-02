@@ -1,0 +1,27 @@
+body {
+    background-color: khaki;
+}
+
+body nav {
+    font-family: 'Viga', sans-serif;
+}
+
+.jumbotron {
+    background-color: khaki;
+}
+
+.jumbotron p {
+    color: black;
+    text-align: center;
+}
+
+.jumbotron p clrs {
+    font-family: 'Asap Condensed', sans-serif;
+    color: maroon;
+    font-weight: bolder;
+}
+
+.name-style {
+    font-weight: bolder;
+
+}
